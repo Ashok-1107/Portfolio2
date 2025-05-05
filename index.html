@@ -22,16 +22,17 @@
     </nav>
 
     <!-- Hero -->
-    <section class="text-center py-16 px-6 bg-gradient-to-r from-blue-700 to-indigo-800 text-white">
-        <img src="assets/profile.jpg" alt="Ashok Sravan Gajjala" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover shadow-lg">
-        <h2 class="text-3xl font-bold">Welcome to My Portfolio</h2>
-        <p class="mt-2 max-w-2xl mx-auto">Hi, I'm Ashok Sravan Gajjala, a master's student in Computer Science with a background in System Engineering, Java development, and Identity & Access Management. I enjoy solving technical problems and building secure, scalable systems.</p>
+    <section class="text-center py-20 px-6 text-white" style="background-image: url('assets/hero-background.png'); background-size: cover; background-position: center;">
+        <div class="bg-black bg-opacity-60 p-10 rounded-xl">
+            <h2 class="text-4xl font-bold">Ashok Sravan Gajjala | Grad Student | Software Engineer</h2>
+            <p class="mt-4 max-w-2xl mx-auto text-lg">Passionate about secure system design, identity management, and smart automation using AI. Leveraging my experience at TCS and Intense Technologies to solve real-world problems in innovative ways.</p>
+        </div>
     </section>
 
     <!-- About -->
     <section id="about" class="py-12 px-6 max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold text-blue-800 mb-4">About Me</h2>
-        <p>I’m currently pursuing my Master’s in Computer Science at the University of South Dakota with a CGPA of 3.81/4.0. I previously earned a BTech in Mechanical Engineering. Professionally, I've worked at TCS and Intense Technologies Ltd where I developed IAM solutions and designed XML-based banking templates. I’m deeply passionate about cloud technologies and hold a Google Cloud Associate certification.</p>
+        <p>I’m a Computer Science graduate student at the University of South Dakota with a 3.81 CGPA. My background includes a BTech in Mechanical Engineering and roles in system engineering and technical consulting. I specialize in Java development, Identity & Access Management (IAM), and cloud infrastructure. I enjoy building practical tools and learning systems that improve security, efficiency, and user experience.</p>
     </section>
 
     <!-- Experience -->
@@ -42,16 +43,18 @@
                 <h3 class="font-semibold text-lg">Tata Consultancy Services (TCS)</h3>
                 <p class="text-sm text-gray-600">System Engineer | Jan 2022 – Jan 2024</p>
                 <ul class="list-disc list-inside mt-2">
-                    <li>Managed IAM for global clients using One Identity Manager and Designer tool.</li>
-                    <li>Developed custom code and assisted teams in technical implementation.</li>
+                    <li>Managed and implemented enterprise IAM systems using One Identity Manager and Designer.</li>
+                    <li>Streamlined access provisioning for systems like SAP and Active Directory.</li>
+                    <li>Developed and optimized reusable IAM modules, improving onboarding speed by 25%.</li>
                 </ul>
             </div>
-            <div>
+            <div class="mb-6">
                 <h3 class="font-semibold text-lg">Intense Technologies Ltd</h3>
                 <p class="text-sm text-gray-600">Technical Consultant | Jan 2021 – Jan 2022</p>
                 <ul class="list-disc list-inside mt-2">
-                    <li>Designed banking templates for mini statements, loans, and deposits.</li>
-                    <li>Gathered client requirements, validated XML, and ensured accurate delivery.</li>
+                    <li>Built and customized banking document templates for leading financial institutions.</li>
+                    <li>Gathered client requirements and translated them into production-ready XML-based layouts.</li>
+                    <li>Validated and deployed templates using Uniserve360, improving template delivery by 30%.</li>
                 </ul>
             </div>
         </div>
@@ -65,8 +68,8 @@
             <span class="bg-blue-100 px-4 py-2 rounded">C</span>
             <span class="bg-blue-100 px-4 py-2 rounded">SQL</span>
             <span class="bg-blue-100 px-4 py-2 rounded">One Identity Manager</span>
-            <span class="bg-blue-100 px-4 py-2 rounded">Uniserve360</span>
-            <span class="bg-blue-100 px-4 py-2 rounded">Cloud Fundamentals</span>
+            <span class="bg-blue-100 px-4 py-2 rounded">Reinforcement Learning</span>
+            <span class="bg-blue-100 px-4 py-2 rounded">Cloud Technologies</span>
         </div>
     </section>
 
@@ -74,7 +77,14 @@
     <section id="projects" class="py-12 px-6 bg-white shadow-sm">
         <div class="max-w-4xl mx-auto">
             <h2 class="text-2xl font-bold text-blue-800 mb-4">Projects</h2>
-            <p class="text-gray-600">Details coming soon...</p>
+            <div class="mb-6">
+                <h3 class="font-semibold">Reinforcement Learning for Crypto Arbitrage</h3>
+                <p>Built a deep Q-learning-based crypto arbitrage bot that monitors and acts on price discrepancies between Binance and Bybit. It dynamically updates trading policy based on market volatility, minimizing fees and maximizing profits.</p>
+            </div>
+            <div>
+                <h3 class="font-semibold">Penalty ShootOut Game</h3>
+                <p>Interactive penalty shootout web game created with HTML/CSS/JS. Deployed via GitHub Pages. <a href="https://github.com/Ashok-1107/PenaltyShootOut" class="text-blue-600 hover:underline" target="_blank">View on GitHub</a></p>
+            </div>
         </div>
     </section>
 
