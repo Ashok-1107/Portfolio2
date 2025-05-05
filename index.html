@@ -1,126 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ashok Sravan Gajjala | Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashok Sravan Gajjala | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-800">
-    <!-- Navbar -->
-    <nav class="bg-blue-900 text-white p-4 flex justify-between items-center sticky top-0 shadow-md z-50">
-        <h1 class="text-xl font-bold">Ashok Sravan Gajjala</h1>
-        <ul class="flex gap-6 text-sm md:text-base">
-            <li><a href="#about" class="hover:underline">About</a></li>
-            <li><a href="#experience" class="hover:underline">Experience</a></li>
-            <li><a href="#skills" class="hover:underline">Skills</a></li>
-            <li><a href="#projects" class="hover:underline">Projects</a></li>
-            <li><a href="#blog" class="hover:underline">Blog</a></li>
-            <li><a href="#resume" class="hover:underline">Resume</a></li>
-            <li><a href="#contact" class="hover:underline">Contact</a></li>
+
+  <!-- Navbar -->
+  <nav class="bg-blue-900 text-white p-4 flex justify-between items-center sticky top-0 shadow-md z-50">
+    <h1 class="text-xl font-bold">Ashok Sravan Gajjala</h1>
+    <ul class="flex gap-6 text-sm md:text-base">
+      <li><a href="#about" class="hover:underline">About</a></li>
+      <li><a href="#experience" class="hover:underline">Experience</a></li>
+      <li><a href="#skills" class="hover:underline">Skills</a></li>
+      <li><a href="#projects" class="hover:underline">Projects</a></li>
+      <li><a href="#blog" class="hover:underline">Blog</a></li>
+      <li><a href="#resume" class="hover:underline">Resume</a></li>
+      <li><a href="#contact" class="hover:underline">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 px-6 text-white relative" style="background-image: url('assets/hero-background.png'); background-size: cover; background-position: center;">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10">
+      <img src="assets/profile.jpg" alt="Ashok Sravan Gajjala" class="w-36 h-36 rounded-full mx-auto mb-4 object-cover shadow-lg border-4 border-white">
+      <h2 class="text-4xl font-bold">Ashok Sravan Gajjala | Grad Student | Software Engineer</h2>
+      <p class="mt-4 max-w-2xl mx-auto text-lg">
+        Passionate about secure system design, identity management, and smart automation using AI. Leveraging my experience at TCS and Intense Technologies to solve real-world problems in innovative ways.
+      </p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-12 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-blue-800 mb-4">About Me</h2>
+    <p>
+      I’m a Computer Science graduate student at the University of South Dakota with a 3.81 CGPA. My background includes a BTech in Mechanical Engineering and roles in system engineering and technical consulting.
+      I specialize in Java development, Identity & Access Management (IAM), and cloud infrastructure. I enjoy building practical tools and intelligent systems that improve security, efficiency, and user experience.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-12 px-6 bg-white shadow-sm">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">Experience</h2>
+      <div class="mb-6">
+        <h3 class="font-semibold text-lg">Tata Consultancy Services (TCS)</h3>
+        <p class="text-sm text-gray-600">System Engineer | Jan 2022 – Jan 2024</p>
+        <ul class="list-disc list-inside mt-2">
+          <li>Designed and managed IAM systems with One Identity Manager and Designer.</li>
+          <li>Automated provisioning for SAP/AD integrations, enhancing access reliability.</li>
+          <li>Created reusable IAM modules, improving onboarding time by 25%.</li>
         </ul>
-    </nav>
-
-    <!-- Hero -->
-    <section class="text-center py-20 px-6 text-white relative" style="background-image: url('assets/hero-background.png'); background-size: cover; background-position: center;">
-        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-        <div class="relative z-10">
-            <img src="assets/profile.jpg" alt="Ashok Sravan Gajjala" class="w-36 h-36 rounded-full mx-auto mb-4 object-cover shadow-lg border-4 border-white">
-            <h2 class="text-4xl font-bold">Ashok Sravan Gajjala | Grad Student | Software Engineer</h2>
-            <p class="mt-4 max-w-2xl mx-auto text-lg">Passionate about secure system design, identity management, and smart automation using AI. Leveraging my experience at TCS and Intense Technologies to solve real-world problems in innovative ways.</p>
-        </div>
-    </section>
-
-    <!-- About -->
-    <section id="about" class="py-12 px-6 max-w-4xl mx-auto">
-        <h2 class="text-2xl font-bold text-blue-800 mb-4">About Me</h2>
-        <p>I’m a Computer Science graduate student at the University of South Dakota with a 3.81 CGPA. My background includes a BTech in Mechanical Engineering and roles in system engineering and technical consulting. I specialize in Java development, Identity & Access Management (IAM), and cloud infrastructure. I enjoy building practical tools and learning systems that improve security, efficiency, and user experience.</p>
-    </section>
-
-    <!-- Experience -->
-    <section id="experience" class="py-12 px-6 bg-white shadow-sm">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-2xl font-bold text-blue-800 mb-4">Experience</h2>
-            <div class="mb-6">
-                <h3 class="font-semibold text-lg">Tata Consultancy Services (TCS)</h3>
-                <p class="text-sm text-gray-600">System Engineer | Jan 2022 – Jan 2024</p>
-                <ul class="list-disc list-inside mt-2">
-                    <li>Managed and implemented enterprise IAM systems using One Identity Manager and Designer.</li>
-                    <li>Streamlined access provisioning for systems like SAP and Active Directory.</li>
-                    <li>Developed and optimized reusable IAM modules, improving onboarding speed by 25%.</li>
-                </ul>
-            </div>
-            <div class="mb-6">
-                <h3 class="font-semibold text-lg">Intense Technologies Ltd</h3>
-                <p class="text-sm text-gray-600">Technical Consultant | Jan 2021 – Jan 2022</p>
-                <ul class="list-disc list-inside mt-2">
-                    <li>Built and customized banking document templates for leading financial institutions.</li>
-                    <li>Gathered client requirements and translated them into production-ready XML-based layouts.</li>
-                    <li>Validated and deployed templates using Uniserve360, improving template delivery by 30%.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" class="py-12 px-6 max-w-4xl mx-auto">
-        <h2 class="text-2xl font-bold text-blue-800 mb-4">Skills</h2>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-            <span class="bg-blue-100 px-4 py-2 rounded">Java</span>
-            <span class="bg-blue-100 px-4 py-2 rounded">C</span>
-            <span class="bg-blue-100 px-4 py-2 rounded">SQL</span>
-            <span class="bg-blue-100 px-4 py-2 rounded">One Identity Manager</span>
-            <span class="bg-blue-100 px-4 py-2 rounded">Reinforcement Learning</span>
-            <span class="bg-blue-100 px-4 py-2 rounded">Cloud Technologies</span>
-        </div>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" class="py-12 px-6 bg-white shadow-sm">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-2xl font-bold text-blue-800 mb-4">Projects</h2>
-            <div class="mb-6">
-                <h3 class="font-semibold">Reinforcement Learning for Crypto Arbitrage</h3>
-                <p>Created a reinforcement learning-based system using Deep Q-Learning to automate arbitrage between Binance and Bybit. This intelligent trading bot adapts in real-time to price volatility and market conditions, optimizing profits by minimizing transaction costs and execution delays.</p>
-            </div>
-            <div class="mb-6">
-                <h3 class="font-semibold">Penalty ShootOut Game</h3>
-                <p>Developed a browser-based interactive penalty shootout game using HTML, CSS, and JavaScript. Integrated keyboard controls and animations to enhance gameplay experience. <a href="https://github.com/Ashok-1107/PenaltyShootOut" class="text-blue-600 hover:underline" target="_blank">View on GitHub</a></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog -->
-    <section id="blog" class="py-12 px-6 max-w-4xl mx-auto">
-        <h2 class="text-2xl font-bold text-blue-800 mb-4">Blog</h2>
-        <ul class="list-disc list-inside">
-            <li><a href="blog-post-1.html" class="text-blue-600 hover:underline">The Importance of IAM in Modern Enterprises</a></li>
-            <li><a href="blog-post-2.html" class="text-blue-600 hover:underline">My Journey into Cloud Technologies</a></li>
+      </div>
+      <div>
+        <h3 class="font-semibold text-lg">Intense Technologies Ltd</h3>
+        <p class="text-sm text-gray-600">Technical Consultant | Jan 2021 – Jan 2022</p>
+        <ul class="list-disc list-inside mt-2">
+          <li>Built and deployed financial document templates using Uniserve360.</li>
+          <li>Gathered and validated XML requirements for large banking clients.</li>
         </ul>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Resume -->
-    <section id="resume" class="py-12 px-6 max-w-4xl mx-auto">
-        <h2 class="text-2xl font-bold text-blue-800 mb-4">Resume</h2>
-        <div class="flex gap-4">
-            <a href="assets/Ashok Resume.pdf" download class="btn bg-blue-700 text-white px-4 py-2 rounded">Download Resume</a>
-            <a href="assets/Ashok Resume.pdf" target="_blank" class="btn bg-gray-700 text-white px-4 py-2 rounded">Preview Resume</a>
-        </div>
-    </section>
+  <!-- Skills -->
+  <section id="skills" class="py-12 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-blue-800 mb-4">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <span class="bg-blue-100 px-4 py-2 rounded">Java</span>
+      <span class="bg-blue-100 px-4 py-2 rounded">SQL</span>
+      <span class="bg-blue-100 px-4 py-2 rounded">One Identity</span>
+      <span class="bg-blue-100 px-4 py-2 rounded">IAM</span>
+      <span class="bg-blue-100 px-4 py-2 rounded">C</span>
+      <span class="bg-blue-100 px-4 py-2 rounded">Reinforcement Learning</span>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <section id="contact" class="py-12 px-6 bg-white shadow-sm">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-2xl font-bold text-blue-800 mb-4">Contact</h2>
-            <p class="mb-2">📧 <a href="mailto:ashoksravan.gajjala@coyotes.usd.edu" class="text-blue-600 hover:underline">ashoksravan.gajjala@coyotes.usd.edu</a></p>
-            <p class="mb-2">🔗 <a href="https://www.linkedin.com/in/ashok-gajjala-07b0881b1/" class="text-blue-600 hover:underline" target="_blank">LinkedIn</a></p>
-            <p class="mb-2">💻 <a href="https://github.com/Ashok-1107/" class="text-blue-600 hover:underline" target="_blank">GitHub</a></p>
-        </div>
-    </section>
+  <!-- Projects -->
+  <section id="projects" class="py-12 px-6 bg-white shadow-sm">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">Projects</h2>
+      <div class="mb-6">
+        <h3 class="font-semibold">Reinforcement Learning for Crypto Arbitrage</h3>
+        <p>
+          Built an RL-powered trading bot using Deep Q-Learning to automate crypto arbitrage between Binance and Bybit. The bot dynamically adapts to market volatility, executes trades in real time, and includes risk strategies like stop-loss and slippage checks.
+        </p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Penalty ShootOut Game</h3>
+        <p>
+          Developed a browser-based game using HTML/CSS/JS where users take penalty shots against an AI goalkeeper. Fully interactive and hosted on GitHub. <a href="https://github.com/Ashok-1107/PenaltyShootOut" class="text-blue-600 hover:underline" target="_blank">View on GitHub</a>
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="text-center bg-blue-900 text-white py-4">
-        <p>© 2025 Ashok Sravan Gajjala. All rights reserved.</p>
-    </footer>
+  <!-- Blog -->
+  <section id="blog" class="py-12 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-blue-800 mb-4">Blog</h2>
+    <ul class="list-disc list-inside">
+      <li><a href="blog-post-1.html" class="text-blue-600 hover:underline">The Importance of IAM in Modern Enterprises</a></li>
+      <li><a href="blog-post-2.html" class="text-blue-600 hover:underline">My Journey into Cloud Technologies</a></li>
+    </ul>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="py-12 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-blue-800 mb-4">Resume</h2>
+    <div class="flex gap-4">
+      <a href="assets/Ashok Resume.pdf" download class="btn bg-blue-700 text-white px-4 py-2 rounded">Download Resume</a>
+      <a href="assets/Ashok Resume.pdf" target="_blank" class="btn bg-gray-700 text-white px-4 py-2 rounded">Preview Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-12 px-6 bg-white shadow-sm">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">Contact</h2>
+      <p class="mb-2">📧 <a href="mailto:ashoksravan.gajjala@coyotes.usd.edu" class="text-blue-600 hover:underline">ashoksravan.gajjala@coyotes.usd.edu</a></p>
+      <p class="mb-2">🔗 <a href="https://www.linkedin.com/in/ashok-gajjala-07b0881b1/" class="text-blue-600 hover:underline" target="_blank">LinkedIn</a></p>
+      <p class="mb-2">💻 <a href="https://github.com/Ashok-1107/" class="text-blue-600 hover:underline" target="_blank">GitHub</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center bg-blue-900 text-white py-4">
+    <p>© 2025 Ashok Sravan Gajjala. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
