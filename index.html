@@ -22,8 +22,10 @@
     </nav>
 
     <!-- Hero -->
-    <section class="text-center py-20 px-6 text-white" style="background-image: url('assets/hero-background.png'); background-size: cover; background-position: center;">
-        <div class="bg-black bg-opacity-60 p-10 rounded-xl">
+    <section class="text-center py-20 px-6 text-white relative" style="background-image: url('assets/hero-background.png'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div class="relative z-10">
+            <img src="assets/profile.jpg" alt="Ashok Sravan Gajjala" class="w-36 h-36 rounded-full mx-auto mb-4 object-cover shadow-lg border-4 border-white">
             <h2 class="text-4xl font-bold">Ashok Sravan Gajjala | Grad Student | Software Engineer</h2>
             <p class="mt-4 max-w-2xl mx-auto text-lg">Passionate about secure system design, identity management, and smart automation using AI. Leveraging my experience at TCS and Intense Technologies to solve real-world problems in innovative ways.</p>
         </div>
@@ -79,11 +81,11 @@
             <h2 class="text-2xl font-bold text-blue-800 mb-4">Projects</h2>
             <div class="mb-6">
                 <h3 class="font-semibold">Reinforcement Learning for Crypto Arbitrage</h3>
-                <p>Built a deep Q-learning-based crypto arbitrage bot that monitors and acts on price discrepancies between Binance and Bybit. It dynamically updates trading policy based on market volatility, minimizing fees and maximizing profits.</p>
+                <p>Created a reinforcement learning-based system using Deep Q-Learning to automate arbitrage between Binance and Bybit. This intelligent trading bot adapts in real-time to price volatility and market conditions, optimizing profits by minimizing transaction costs and execution delays.</p>
             </div>
-            <div>
+            <div class="mb-6">
                 <h3 class="font-semibold">Penalty ShootOut Game</h3>
-                <p>Interactive penalty shootout web game created with HTML/CSS/JS. Deployed via GitHub Pages. <a href="https://github.com/Ashok-1107/PenaltyShootOut" class="text-blue-600 hover:underline" target="_blank">View on GitHub</a></p>
+                <p>Developed a browser-based interactive penalty shootout game using HTML, CSS, and JavaScript. Integrated keyboard controls and animations to enhance gameplay experience. <a href="https://github.com/Ashok-1107/PenaltyShootOut" class="text-blue-600 hover:underline" target="_blank">View on GitHub</a></p>
             </div>
         </div>
     </section>
